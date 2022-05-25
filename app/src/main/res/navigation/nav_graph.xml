@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchFragment">
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.itCenter.weatherApp.ui.search.SearchWeatherFragment"
+        android:label="search_weather_fragment"
+        tools:layout="@layout/search_weather_fragment" >
+        <action
+            android:id="@+id/action_searchFragment_to_showWeatherFragment"
+            app:destination="@id/showWeatherFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/showWeatherFragment"
+        android:name="com.itCenter.weatherApp.ui.weather.ShowWeatherFragment"
+        android:label="show_weather_fragment"
+        tools:layout="@layout/show_weather_fragment" >
+        <action
+            android:id="@+id/action_showWeatherFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <argument
+            android:name="cityArgs"
+            app:argType="string" />
+        <argument
+            android:name="date"
+            app:argType="string" />
+    </fragment>
+</navigation>
