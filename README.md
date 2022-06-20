@@ -1,5 +1,5 @@
 # ItCenterWeatherApp
-Ze względu na ograniiczenia API możliwe jest wyszukiwanie po miastach oraz kodach pocztowych tylko z USA, UK i Kanady.
+Ze względu na ograniczenia API możliwe jest wyszukiwanie po miastach oraz kodach pocztowych tylko z USA, UK i Kanady.
 
 Przykładowe zipcody: 
 
