@@ -1,4 +1,4 @@
-# ItCenterWeatherApp
+# WeatherApp
 Ze względu na ograniczenia API możliwe jest wyszukiwanie po miastach oraz kodach pocztowych tylko z USA, UK i Kanady.
 
 Przykładowe zipcody: 
