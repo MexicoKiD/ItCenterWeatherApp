@@ -11,6 +11,8 @@ Przykładowe zipcody:
 43215
 10011
 
-https://www.unitedstateszipcodes.org/                                                                                                                                                                           
+https://www.unitedstateszipcodes.org/     
+
 https://www.mapsofworld.com/postal-codes/country-united-kingdom.html
+
 https://parceltracking.info/canada-zip-code/
